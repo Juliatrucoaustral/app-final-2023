@@ -35,6 +35,7 @@ export class ProductosPage implements OnInit {
         }
       })
     })
+    
   }
 
   ngOnInit() {

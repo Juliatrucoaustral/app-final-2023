@@ -19,7 +19,7 @@ export const CATEGORIA: Categoria[]=[
 
             {
                 id: 2,
-                nombre: "Experimento de amor en nueva york",
+                nombre: "Experimento de amor",
                 precio: 10500,
                 imagen: "https://http2.mlstatic.com/D_NQ_NP_658146-MLA53185708175_012023-W.webp" ,
                 descripcion: "Rosie esta desesperada, en el medio de su bloqueo crwativo tiene solo 8 semanas para escribirlo. "

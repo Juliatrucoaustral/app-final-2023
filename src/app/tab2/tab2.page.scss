@@ -1,6 +1,10 @@
 #ion-card {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2fr, 2fr);
     gap: 20px;
+
   }
   
+  ion-card-title{
+    font-size: 15px;
+  }

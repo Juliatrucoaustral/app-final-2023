@@ -16,7 +16,7 @@
 
   
   
-  <ion-row>
+  <ion-row id="letra">
     <ion-col size="6" *ngFor="let item of categoriaActual.productos">
       <ion-card id="ion-card" [routerLink]="['/productos', item.id]">
         <img alt="{{item.nombre}}" src="{{item.imagen}}" />

@@ -20,7 +20,7 @@
   <ion-button fill="outline" shape="round" expand="block" (click)="onAgregarAlCarritoClicked()">Agregar al carrito</ion-button>
   <app-contador-cantidad (cantidadCambiada)="cantidad=$event"></app-contador-cantidad>
 </div>
-</ion-content>
+
 <ion-card>
   <ion-card-header>
     <div class="contenedor-flex">
@@ -29,3 +29,5 @@
     </div>
     <ion-card-subtitle>{{producto.precio}}</ion-card-subtitle>
   </ion-card-header>
+</ion-card> 
+</ion-content>
