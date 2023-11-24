@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Producto } from '../interface/productos';
 import { Carrito } from '../interface/carrito';
 
-
+// funcionalidad especifica 
 @Injectable({
   providedIn: 'root'
 })

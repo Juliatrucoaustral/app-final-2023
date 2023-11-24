@@ -19,10 +19,10 @@
 .slider{
     aspect-ratio: 10/16;
     width: 300px;
-    position: relative;
-    display: flex;
-    overflow: scroll;
-    scroll-snap-type: x mandatory;
+    position: relative; 
+    display: flex;//para ponerlo en fila
+    overflow: scroll; //oculto los que no entran 
+    scroll-snap-type: x mandatory; //para que scroll sea horizontal y siempre quede en unpunto obligatorio 
     width: 100%;
     height: 200px;
     margin-top: 30px;
@@ -31,8 +31,8 @@
 .slider img{
     width: 100%;
     left: 0;
-    position: sticky;
-    object-fit: cover;
+    position: sticky; //efecto deslisante 
+    object-fit: cover; //que cubra completo
     border-radius: 5px;
     scroll-snap-align: center;
 }
